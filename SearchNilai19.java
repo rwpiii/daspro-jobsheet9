@@ -24,6 +24,9 @@ public class SearchNilai19 {
                 break;
             }
         }
+        if (!ditemukan) {
+            System.out.println("Nilai " + key + " tidak ditemukan.");
+        }
         sc.close();
     }
 }
